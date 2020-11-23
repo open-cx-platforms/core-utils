@@ -1,0 +1,2 @@
+class LicenseModelNotFound(Exception):
+    pass

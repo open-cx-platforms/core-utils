@@ -21,7 +21,7 @@ setup(
     python_requires='~=3.5',
     install_requires=[
         "django==2.2.2",
-        "entitlements @ git+https://github.com/carrierwave/entitlements",
+        "entitlements @ git+https://github.com/open-cx-platforms/entitlements",
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',

@@ -122,9 +122,9 @@ def validate(raise_exception=True, **properties):
             validate_features(lic, **properties)
         else:
             raise ValidationError("Invalid license")
-    except ValidationError:
+    except ValidationError as e:
         if not raise_exception:
-            return False
+            return ValidationError(e)
         raise
 
     return True

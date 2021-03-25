@@ -1,2 +1,2 @@
 -e git+https://github.com/MoveBigRocks/entitlements.git#egg=entitlements
-django==2.2.2
+django==2.2.17

@@ -20,8 +20,8 @@ setup(
     packages=find_packages(where='src'),
     python_requires='~=3.5',
     install_requires=[
-        "django==2.2.2",
-        "entitlements @ git+https://github.com/open-cx-platforms/entitlements",
+        "django==2.2.17",
+        "entitlements @ git+https://github.com/MoveBigRocks/entitlements",
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',

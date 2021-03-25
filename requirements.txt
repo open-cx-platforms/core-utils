@@ -1,2 +1,2 @@
--e git+https://github.com/open-cx-platforms/entitlements.git#egg=entitlements
+-e git+https://github.com/MoveBigRocks/entitlements.git#egg=entitlements
 django==2.2.2
